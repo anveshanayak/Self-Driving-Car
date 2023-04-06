@@ -6,3 +6,14 @@ This project entails an obstacle-avoiding self-driving car based on Arduino that
 * The colour sensors recognise red or green colours , makes the car stop if red and continues when green.
 * The Arduino microcontroller reads the sensor data and uses it to control the movement of the car. If an obstacle is detected in front of the car, the Arduino will instruct the car to change direction to avoid it.
 * The Arduino can also control the speed and direction of the car's movement based on the sensor data. 
+
+### COMPONENTS USED
+* Colour sensor
+* Arduino Uno
+* High torque DC motors 
+* Wheels and belt 
+* L293 Motor Shield 
+* 9V battery 
+* 90g Micro server 
+* HC-SR04 Ultrasonic sensor 
+* Jumper wires
