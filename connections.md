@@ -26,3 +26,7 @@ Input 3 -> Pin 0 on Arduino
 Input 4 -> Pin 1 on Arduino  
 VCC1 -> 9V Battery Positive Terminal  
 GND1 -> GND on Arduino  
+
+### High Torque DC Motors:
+Connect one motor to the outputs of the first H-bridge (OUT1 and OUT2), and the other motor to the outputs of the second H-bridge (OUT3 and OUT4).  
+Connect the positive terminal of each motor to VCC1 on the motor driver and the negative terminal to OUT1 or OUT3 respectively.
