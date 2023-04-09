@@ -30,3 +30,6 @@ GND1 -> GND on Arduino
 ### High Torque DC Motors:
 Connect one motor to the outputs of the first H-bridge (OUT1 and OUT2), and the other motor to the outputs of the second H-bridge (OUT3 and OUT4).  
 Connect the positive terminal of each motor to VCC1 on the motor driver and the negative terminal to OUT1 or OUT3 respectively.
+
+### 9V Batteries:
+Connect the positive terminal of both batteries to VCC1 and VCC2 respectively, and connect the negative terminal of both batteries to GND1 and GND2 respectively.
