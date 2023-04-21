@@ -11,8 +11,8 @@ This project entails an obstacle-avoiding self-driving car based on Arduino that
 * Colour sensor
 * Arduino Uno
 * High torque DC motors 
-* Wheels and belt 
-* L293 Motor Shield 
+* Wheels (4) 
+* L293D Motor Shield 
 * 9V battery 
 * 90g Micro server 
 * HC-SR04 Ultrasonic sensor 
