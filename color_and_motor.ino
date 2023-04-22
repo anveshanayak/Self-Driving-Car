@@ -25,12 +25,10 @@ const int in2 = 8;
 // Stores frequency read by the photodiodes
 int redFrequency = 0;
 int greenFrequency = 0;
-// int blueFrequency = 0;
 
 // Stores the red. green and blue colors
 int redColor = 0;
 int greenColor = 0;
-// int blueColor = 0;
 
 void setup() {
   // Setting the outputs
@@ -93,30 +91,12 @@ void loop() {
   Serial.print(greenColor);
   delay(100);
  
-  // Setting BLUE (B) filtered photodiodes to be read
-  digitalWrite(S2,LOW);
-  digitalWrite(S3,HIGH);
   
-  // Reading the output frequency
-  // blueFrequency = pulseIn(sensorOut, LOW);
-  // // Remaping the value of the BLUE (B) frequency from 0 to 255
-  // // You must replace with your own values. Here's an example: 
-  // // blueColor = map(blueFrequency, 38, 84, 255, 0);
-  // blueColor = map(blueFrequency, 38, 84, 255, 0);
-  
-  // Printing the BLUE (B) value 
-  // Serial.print(" B = ");
-  // Serial.print(blueColor);
-  // delay(500);
 
 
   analogWrite(enA, 200);
   digitalWrite(in1, HIGH);
   digitalWrite(in2, LOW);
-  // digitalWrite(motor1Pin1, HIGH);
-  // digitalWrite(motor1Pin2, LOW);
-  // digitalWrite(motor2Pin1, HIGH);
-  // digitalWrite(motor2Pin2, LOW);
 
   // Checks the current detected color and prints
   // a message in the serial monitor
@@ -134,7 +114,4 @@ void loop() {
     digitalWrite(motor2Pin1, HIGH);
     digitalWrite(motor2Pin2, LOW);    
   }
-  // if(blueColor > redColor && blueColor > greenColor){
-  //   Serial.println(" - BLUE detected!");
-  // }
 }
